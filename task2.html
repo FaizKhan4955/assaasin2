@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="bg" style="height: 900px;">
+    <h1>Create a web page with two buttons. When the first button is clicked, change the background color of the page to blue. <br>
+        When the second button is clicked, change the background color of the page to red.</h1>
+   <br>
+   <br>
+   <br>
+   <button style="width: 220px;height: 30px;margin-left: 50px;" id="green">Color 1</button>
+   <button style="width: 220px;height: 30px;margin-left: 50px;" id="blue">Color 2</button>
+</div>
+
+
+<script>
+
+var green=document.getElementById('green')
+var blue=document.getElementById('blue')
+var bg=document.getElementById('bg')
+
+green.addEventListener('click',greenc)
+blue.addEventListener('click',blued)
+
+function greenc(){
+
+    bg.style.backgroundColor='green'
+
+}
+function blued(){
+
+bg.style.backgroundColor='blue'
+
+}
+
+
+</script>
+
+</body>
+</html>

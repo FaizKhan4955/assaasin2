@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create a web page with an image and a button. When the button is clicked, change the image to a different one.</h1>
+
+    <button id="li" style="height: 35px;width: 120px;margin-bottom: 15px;">click</button>
+<div >
+    <img src="photo-1601153211050-ae2e1fa428d7.jpeg" style="height: 500px;width: 600px;"id="man" >
+</div>
+
+<script>
+   var li= document.getElementById('li')
+   var man= document.getElementById('man')
+
+   li.addEventListener('click',op)
+
+   function op(){
+  man.src='https://media.pitchfork.com/photos/62043c007db00b3b97548cb5/1:1/w_1000,h_1000,c_limit/Snoop%20Dogg.jpg'
+   }
+
+</script>
+    
+</body>
+</html>

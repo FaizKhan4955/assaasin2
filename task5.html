@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create a web page with a button that, when clicked, displays a random quote from a list of quotes.</h1>
+
+    <button id="hi" style="height: 35px;width: 120px;margin-bottom: 15px;">click</button>
+
+    <script>
+        var li=document.getElementById('hi')
+var arr=['never give up','stay focused','be brave','no pain no gain']
+
+li.addEventListener('click',quote)
+function quote(){
+   var rand=  Math.floor(Math.random() * 4);
+   alert(arr[rand])
+
+}
+
+    </script>
+</body>
+</html>

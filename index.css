@@ -1,0 +1,32 @@
+.body{
+    margin: 0 auto;
+}
+.background{
+    height: 720px;
+    width: 1540PX;
+    /* background-color: aqua; */
+    background-image: url(glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px 730px;
+    display: grid;
+}
+
+
+
+.bot{
+    height: 35px;
+    width: 220px;
+    background-color: rgb(247, 96, 41);
+margin-left: 56px;
+border: 1px solid rgb(179, 176, 176);
+box-shadow: 2px 1px 0px rgb(224, 221, 221);
+border-radius: 20px;
+}
+.bot i {
+    margin-left: 15px;
+}
+.bot a{
+    text-decoration: none;
+    color: wheat;
+    font-size: x-large;
+}
